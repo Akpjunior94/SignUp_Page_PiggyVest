@@ -2,5 +2,10 @@
 
 ## Screenshots
 
-![Screenshot 01](/screenshot/image1.PNG)
-![Screenshot 02](/screenshot/image2.PNG)
+### Screenshot 1
+
+![](/screenshot/image1.PNG)
+
+### Screenshot 2
+
+![](/screenshot/image2.PNG)
