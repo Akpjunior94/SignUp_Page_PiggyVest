@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ADD8E6;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+
+
+}
+
+.container{
+   width: 448px;
+   display: flex;
+   flex-direction: column;
+   
+
+}
+
+/* logo */
+.logo{
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+/* logo end */
+
+/* form */
+form{
+    text-align: center;
+    background: white;
+    border-radius: 20px 20px 20px 0;
+    padding: 40px 40px 48px;
+}
+
+form h1{
+    font-size: 24px;
+    color: #083e9e;
+    
+}
+
+form p{
+    font-size: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #4a5568;
+    font-family: 'karla', sans-serif;
+}
+
+.form_input label {
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.form_input input {
+    width: 100%;
+    padding: 16px;
+    border: 0;
+    background-color: #edf2f7;
+    font-size: 16px;
+    color: #000000a1;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+
+.form_input input::placeholder {
+    font-size: 16px;
+}
+  
+.form_input select{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    background: #edf2f7;
+    border-radius: 5px;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('../img/arrow-down.svg');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 21px;
+}
+
+.select-selected{
+    background: blue;
+}
+
+.box{
+    background: red;
+    width: 100%;
+    height: 10px;
+
+}
+
+button{
+    width: 100%;
+    margin-top: 32px;
+    padding: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px 10px 10px 0;
+    border: none;
+    background: #083e9e;
+    color: white;
+}
+
+button:hover{
+    background: #062863;
+}
+/* form end */
+
+/* link login */
+.signup-link{
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin: 32px;
+    padding: 4px 20px;
+    color: white;
+    font-family: 'karla', sans-serif;
+}
